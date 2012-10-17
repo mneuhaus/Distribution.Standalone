@@ -1,5 +1,5 @@
 {
-    "hash": "5ad714c0a9ea9ba710e6e256197df570",
+    "hash": "ab5bcbd882344e11e0eaccabcf8cb30f",
     "packages": [
         {
             "name": "doctrine/common",
@@ -241,18 +241,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Scaff",
-                "reference": "b10e59708dd3ad5d9c9d94605c9b33730e4a3e10"
+                "reference": "10984886aa3c43c22f5c969213e075e7107eb643"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/mneuhaus/Famelo.Scaff/zipball/b10e59708dd3ad5d9c9d94605c9b33730e4a3e10",
-                "reference": "b10e59708dd3ad5d9c9d94605c9b33730e4a3e10",
+                "url": "https://github.com/mneuhaus/Famelo.Scaff/zipball/10984886aa3c43c22f5c969213e075e7107eb643",
+                "reference": "10984886aa3c43c22f5c969213e075e7107eb643",
                 "shasum": ""
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1349359213",
+            "time": "1350506216",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -260,108 +260,6 @@
                     "Famelo\\Scaff": "Classes"
                 }
             }
-        },
-        {
-            "name": "kriswallsmith/assetic",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "http://github.com/kriswallsmith/assetic.git",
-                "reference": "e22c5e07e672bb0cf43127e97e9368b53abf4aa8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/kriswallsmith/assetic/zipball/e22c5e07e672bb0cf43127e97e9368b53abf4aa8",
-                "reference": "e22c5e07e672bb0cf43127e97e9368b53abf4aa8",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/process": ">=2.1.0,<2.3-dev",
-                "php": ">=5.3.1"
-            },
-            "require-dev": {
-                "twig/twig": ">=1.6.0,<2.0",
-                "leafo/lessphp": "*",
-                "leafo/scssphp": "*",
-                "ptachoire/cssembed": "*",
-                "leafo/scssphp-compass": "*"
-            },
-            "suggest": {
-                "twig/twig": "Assetic provides the integration with the Twig templating engine",
-                "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
-                "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
-                "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
-                "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin"
-            },
-            "time": "1349004759",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "installation-source": "source",
-            "autoload": {
-                "psr-0": {
-                    "Assetic": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kris Wallsmith",
-                    "email": "kris.wallsmith@gmail.com",
-                    "homepage": "http://kriswallsmith.net/"
-                }
-            ],
-            "description": "Asset Management for PHP",
-            "homepage": "https://github.com/kriswallsmith/assetic",
-            "keywords": [
-                "assets",
-                "compression",
-                "minification"
-            ]
-        },
-        {
-            "name": "leafo/lessphp",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "http://github.com/leafo/lessphp",
-                "reference": "4ce20058d651a73702bb9be5d299d0e2eb0687f0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/leafo/lessphp/zipball/4ce20058d651a73702bb9be5d299d0e2eb0687f0",
-                "reference": "4ce20058d651a73702bb9be5d299d0e2eb0687f0",
-                "shasum": ""
-            },
-            "time": "1348713472",
-            "type": "library",
-            "installation-source": "source",
-            "autoload": {
-                "classmap": [
-                    "lessc.inc.php"
-                ]
-            },
-            "license": [
-                "MIT",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Leaf Corcoran",
-                    "email": "leafot@gmail.com",
-                    "homepage": "http://leafo.net"
-                }
-            ],
-            "description": "lessphp is a compiler for LESS written in PHP.",
-            "homepage": "http://leafo.net/lessphp/"
         },
         {
             "name": "symfony/dom-crawler",
@@ -417,53 +315,6 @@
             "homepage": "http://symfony.com"
         },
         {
-            "name": "symfony/process",
-            "version": "dev-master",
-            "target-dir": "Symfony/Component/Process",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/Process",
-                "reference": "f029d06585ad7646cc2e9ee9daf1f395014e1c7f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/symfony/Process/zipball/f029d06585ad7646cc2e9ee9daf1f395014e1c7f",
-                "reference": "f029d06585ad7646cc2e9ee9daf1f395014e1c7f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "time": "1349553479",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
-            "installation-source": "source",
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Component\\Process\\": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Process Component",
-            "homepage": "http://symfony.com"
-        },
-        {
             "name": "symfony/yaml",
             "version": "dev-master",
             "target-dir": "Symfony/Component/Yaml",
@@ -511,33 +362,24 @@
             "homepage": "http://symfony.com"
         },
         {
-            "name": "typo3/asset",
+            "name": "typo3/eel",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afoeder/TYPO3.Asset.git",
-                "reference": "efe4f80e046ff5f5d13d171af71671355ad9d85c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/afoeder/TYPO3.Asset/zipball/efe4f80e046ff5f5d13d171af71671355ad9d85c",
-                "reference": "efe4f80e046ff5f5d13d171af71671355ad9d85c",
-                "shasum": ""
+                "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Eel.git",
+                "reference": "3c92516a303bea9a368c31dbd566481a1f364ab5"
             },
             "require": {
-                "typo3/flow": "*",
-                "kriswallsmith/assetic": "*",
-                "leafo/lessphp": "*"
+                "typo3/flow": "*"
             },
-            "time": "1349853531",
+            "time": "1350462923",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
-                    "TYPO3\\Asset": "Classes"
+                    "TYPO3\\Eel": "Classes"
                 }
-            },
-            "description": "Assetic integration for TYPO3 Flow"
+            }
         },
         {
             "name": "typo3/expose",
@@ -795,7 +637,6 @@
         "typo3/expose": 20,
         "typo3/kickstart": 20,
         "famelo/scaff": 20,
-        "typo3/asset": 20,
         "typo3/buildessentials": 20,
         "debug/toolbar": 20,
         "typo3/surf": 20,

@@ -16,8 +16,7 @@
         "typo3/flow": "dev-master",
         "typo3/expose": "dev-master",
         "typo3/kickstart": "dev-master",
-        "famelo/scaff": "dev-master",
-        "typo3/asset": "dev-master"
+        "famelo/scaff": "dev-master"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
