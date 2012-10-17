@@ -241,18 +241,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Scaff",
-                "reference": "10984886aa3c43c22f5c969213e075e7107eb643"
+                "reference": "0decbf4207f212a1f8237fe55651625bd6c9a14a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/mneuhaus/Famelo.Scaff/zipball/10984886aa3c43c22f5c969213e075e7107eb643",
-                "reference": "10984886aa3c43c22f5c969213e075e7107eb643",
+                "url": "https://github.com/mneuhaus/Famelo.Scaff/zipball/0decbf4207f212a1f8237fe55651625bd6c9a14a",
+                "reference": "0decbf4207f212a1f8237fe55651625bd6c9a14a",
                 "shasum": ""
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1350506216",
+            "time": "1350517526",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -536,27 +536,6 @@
             "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 5.0, also backported to TYPO3 4.x"
         },
         {
-            "name": "typo3/form",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Form.git",
-                "reference": "366aa160061a308340b3f01d32488b61ea990654"
-            },
-            "require": {
-                "typo3/flow": "*"
-            },
-            "time": "1349121735",
-            "type": "typo3-flow-package",
-            "installation-source": "source",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\Form": "Classes"
-                }
-            },
-            "description": "Extensible and flexible API for building web forms"
-        },
-        {
             "name": "typo3/kickstart",
             "version": "dev-master",
             "source": {
@@ -604,27 +583,6 @@
                 "LGPL-3.0+"
             ],
             "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard."
-        },
-        {
-            "name": "typo3/typoscript",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.TypoScript.git",
-                "reference": "8fd5640bb12199c86f03df7f5962eefad71d8f98"
-            },
-            "require": {
-                "typo3/flow": "*",
-                "typo3/eel": "*"
-            },
-            "time": "1350462960",
-            "type": "typo3-flow-package",
-            "installation-source": "source",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\TypoScript": "Classes"
-                }
-            }
         }
     ],
     "packages-dev": null,
