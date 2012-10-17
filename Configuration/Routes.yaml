@@ -11,8 +11,8 @@
 # TYPO3 subroutes
 
 -
-  name: 'TYPO3'
-  uriPattern: '<TYPO3Subroutes>'
+  name: 'Flow'
+  uriPattern: '<FlowSubroutes>'
   subRoutes:
-    TYPO3Subroutes:
-      package: TYPO3.TYPO3
+    FlowSubroutes:
+      package: TYPO3.Flow
