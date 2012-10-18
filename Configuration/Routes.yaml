@@ -11,6 +11,13 @@
 # TYPO3 subroutes
 
 -
+  name: 'Home'
+  uriPattern: ''
+  defaults:
+    '@format': 'html'
+    '@package': 'Famelo.Scaff'
+
+-
   name: 'Flow'
   uriPattern: '<FlowSubroutes>'
   subRoutes:

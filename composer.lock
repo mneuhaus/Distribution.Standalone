@@ -1,5 +1,5 @@
 {
-    "hash": "ab5bcbd882344e11e0eaccabcf8cb30f",
+    "hash": "715f1ba209b9d627aa92ab43de06aa1b",
     "packages": [
         {
             "name": "doctrine/common",
@@ -236,6 +236,32 @@
             ]
         },
         {
+            "name": "famelo/demo-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Famelo.Demo.Admin",
+                "reference": "c1b086e435b2b628fa6a36e1e178c2c0eff0eb81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/mneuhaus/Famelo.Demo.Admin/zipball/c1b086e435b2b628fa6a36e1e178c2c0eff0eb81",
+                "reference": "c1b086e435b2b628fa6a36e1e178c2c0eff0eb81",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "time": "1350548269",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Famelo\\Demo\\Admin": "Classes"
+                }
+            }
+        },
+        {
             "name": "famelo/scaff",
             "version": "dev-master",
             "source": {
@@ -414,7 +440,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.FLOW3.git",
-                "reference": "81a506011016e2d5091022800c9a509e6c0ac79e"
+                "reference": "faf48bec01b50d7f0b2154f4f5c28b1f0aa6cd2c"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -430,7 +456,7 @@
                 "symfony/dom-crawler": ">2.0.16",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "1350477540",
+            "time": "1350547258",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -627,7 +653,213 @@
             }
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+        {
+            "name": "debug/toolbar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Debug.Toolbar",
+                "reference": "9b2ecc615c4ea34555e280a7b4df3e9a1b34fcea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/mneuhaus/Debug.Toolbar/zipball/9b2ecc615c4ea34555e280a7b4df3e9a1b34fcea",
+                "reference": "9b2ecc615c4ea34555e280a7b4df3e9a1b34fcea",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "time": "1349861750",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Debug\\Toolbar": "Classes"
+                }
+            }
+        },
+        {
+            "name": "famelo/surf-sharedhosting",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Famelo.Surf.SharedHosting",
+                "reference": "50a7bb03b93c4ad9081aafab3f21f535fe41ad5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/mneuhaus/Famelo.Surf.SharedHosting/zipball/50a7bb03b93c4ad9081aafab3f21f535fe41ad5d",
+                "reference": "50a7bb03b93c4ad9081aafab3f21f535fe41ad5d",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "time": "1350499921",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Famelo\\Surf\\SharedHosting": "Classes"
+                }
+            }
+        },
+        {
+            "name": "mikey179/vfsStream",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikey179/vfsStream",
+                "reference": "v1.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/mikey179/vfsStream/zipball/v1.1.0",
+                "reference": "v1.1.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2012-08-25 12:49:29",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "org\\bovigo\\vfs": "src/main/php"
+                }
+            },
+            "license": [
+                "BSD"
+            ],
+            "homepage": "http://vfs.bovigo.org/"
+        },
+        {
+            "name": "sandstorm/phpprofiler",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sandstorm/PhpProfiler.git",
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sandstorm/PhpProfiler/zipball/1.0.1",
+                "reference": "1.0.1",
+                "shasum": ""
+            },
+            "time": "2012-10-09 23:01:43",
+            "type": "typo3-flow-package",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Sandstorm\\PhpProfiler": "Classes"
+                }
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Kurfürst",
+                    "homepage": "http://sandstorm-media.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Base package for collecting timers and xhprof traces. To be used with sandstorm|plumber for visualization."
+        },
+        {
+            "name": "sandstorm/plumber",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/sandstorm/Plumber.git",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sandstorm/Plumber/zipball/1.0.3",
+                "reference": "1.0.3",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*",
+                "sandstorm/phpprofiler": "1.0.*"
+            },
+            "time": "1350025795",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Sandstorm\\Plumber": "Classes"
+                }
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Kurfürst",
+                    "homepage": "http://sandstorm-media.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Profiling Toolkit for TYPO3 Flow and Neos",
+            "keywords": [
+                "flow",
+                "debugging",
+                "profiler",
+                "profiling",
+                "xhprof",
+                "benchmark",
+                "TYPO3 Flow",
+                "Neos",
+                "TYPO3 Neos"
+            ]
+        },
+        {
+            "name": "typo3/buildessentials",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://git.typo3.org/FLOW3/BuildEssentials.git",
+                "reference": "eeb5a5272766712430dd0c9c9c38417b05baac9f"
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "typo3/flow-composer-installers": "*"
+            },
+            "time": "1350311922",
+            "type": "typo3-flow-build",
+            "installation-source": "source",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "description": "TYPO3 Flow Build Toolchain Essentials"
+        },
+        {
+            "name": "typo3/surf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Surf.git",
+                "reference": "e5f730f22e17ad92038d08aacc82e08d7fb41f66"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "time": "1349603190",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Surf": "Classes"
+                }
+            }
+        }
+    ],
     "aliases": [
 
     ],
@@ -636,6 +868,7 @@
         "typo3/flow": 20,
         "typo3/expose": 20,
         "typo3/kickstart": 20,
+        "famelo/demo-admin": 20,
         "famelo/scaff": 20,
         "typo3/buildessentials": 20,
         "debug/toolbar": 20,
