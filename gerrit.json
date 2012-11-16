@@ -1,0 +1,15 @@
+{
+	"TYPO3.Flow": {
+		"[FEATURE] Allow custom custom configuration files in ConfigurationManager": "11982",
+		"[WIP][FEATURE] Improve resolving of view": "16392"
+	},
+	"TYPO3.TypoScript": {
+		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394"
+	},
+	"TYPO3.Fluid": {
+		"[FEATURE] Add various Setters to override Paths and Patterns": "16393"
+	},
+	"TYPO3.Expose": {
+		"[WIP!!!][FEATURE] Context aware Configuration": "16160"
+	}
+}

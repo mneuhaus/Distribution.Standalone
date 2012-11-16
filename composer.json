@@ -9,7 +9,7 @@
         }
     ],
     "config": {
-        "vendor-dir": "Packages/Vendor",
+        "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
     },
     "require": {
@@ -17,7 +17,8 @@
         "typo3/expose": "dev-master",
         "typo3/kickstart": "dev-master",
         "famelo/demo-admin": "dev-master",
-        "famelo/scaff": "dev-master"
+        "famelo/scaff": "dev-master",
+        "famelo/gerrit": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
