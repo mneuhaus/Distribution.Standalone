@@ -7,3 +7,12 @@
 # Please refer to the default settings file(s) or the manuals for        #
 # possible configuration options.                                        #
 #                                                                        #
+
+TYPO3:
+  Flow:
+    persistence:
+      backendOptions:
+        dbname: flow-test
+        user: root
+        password: root
+        host: 127.0.0.1
