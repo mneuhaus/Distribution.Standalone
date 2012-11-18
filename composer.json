@@ -1,5 +1,5 @@
 {
-    "name": "famelo/d-standalone",
+    "name": "famelo/standalone",
     "description" : "Expose Distribution without Neos",
     "license": "GPL-3.0+",
     "repositories": [
