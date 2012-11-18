@@ -14,3 +14,4 @@
 Build/Resources/Java/selenium-server-standalone*
 /"
 composer.lock
+Configuration/Settings.yaml
