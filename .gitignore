@@ -13,3 +13,4 @@
 # temporary directory (which starts with a quote, do not ask why...)
 Build/Resources/Java/selenium-server-standalone*
 /"
+composer.lock
