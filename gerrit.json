@@ -8,8 +8,5 @@
 	},
 	"TYPO3.Fluid": {
 		"[FEATURE] Add various Setters to override Paths and Patterns": "16393"
-	},
-	"TYPO3.Expose": {
-		"[WIP!!!][FEATURE] Context aware Configuration": "16160"
 	}
 }
