@@ -19,7 +19,8 @@
         "famelo/demo-admin": "dev-master",
         "famelo/scaff": "dev-master",
         "famelo/gerrit": "*",
-        "typo3/setup": "*"
+        "typo3/setup": "*",
+        "Famelo/Poltergeist": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",

@@ -1,0 +1,12 @@
+default:
+  paths:
+      features: Tests/Features
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:  'http://standalone.flow/'
+      default_session: selenium2
+      goutte: ~
+      selenium2: ~
+
+imports:
+  - Packages/Libraries/behat/mink/behat.yml
