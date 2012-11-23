@@ -20,7 +20,7 @@
         "famelo/scaff": "dev-master",
         "famelo/gerrit": "*",
         "typo3/setup": "*",
-        "Famelo/Poltergeist": "*"
+        "famelo/poltergeist": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
