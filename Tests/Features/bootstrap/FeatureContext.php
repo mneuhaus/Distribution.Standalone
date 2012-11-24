@@ -13,6 +13,11 @@ require_once dirname(__FILE__) . '/../../../Packages/Libraries/autoload.php';
  * Features context.
  */
 class FeatureContext extends MinkContext {
+    /** @BeforeStep */
+    public function beforeStep() {
+        $this->getSession()->wait(5000, 'document.readyState === "complete"');
+    }
+
     /**
      * @When /^I look for a Row with "([^"]*)"$/
      */
