@@ -15,9 +15,10 @@ Feature:
     Then I should see "Submit"
     When I fill in "form-objects_0_street" with "Foo"
     When I press "Submit"
+    When I wait 3 secs
     Then I should see "Foo"
 
-  Scenario: Create a Adress
+  Scenario: Create a address
     Given I am on homepage
     When I follow "Models"
     When I follow "Adresses"
@@ -25,9 +26,10 @@ Feature:
     Then I should see "Submit"
     When I fill in "form-objects_0_street" with "My-cool-street"
     When I press "Submit"
+    When I wait 2 secs
     Then I should see "My-cool-street"
 
-  Scenario: Edit that Adress
+  Scenario: Edit that address
     Given I am on homepage
     When I follow "Models"
     When I follow "Adresses"
@@ -37,7 +39,7 @@ Feature:
     When I wait 2 secs
     Then I should see "My-cool-other-street"
 
-  Scenario: I'm not really sure if i want to delete that adress
+  Scenario: I'm not really sure if i want to delete that address
     Given I am on homepage
     When I follow "Models"
     Then I follow "Adresses"
@@ -47,7 +49,7 @@ Feature:
     When I wait 2 secs
     Then I should see "My-cool-other-street"
 
-  Scenario: Now really delete that adress
+  Scenario: Now really delete that address
     Given I am on homepage
     When I follow "Models"
     Then I follow "Adresses"
