@@ -19,15 +19,15 @@
         "famelo/demo-admin": "dev-master",
         "famelo/scaff": "dev-master",
         "famelo/gerrit": "*",
-        "typo3/setup": "*",
-        "famelo/poltergeist": "*"
+        "typo3/setup": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
         "mikey179/vfsstream": "1.1.*",
         "debug/toolbar": "dev-master",
         "typo3/surf": "dev-master",
-        "famelo/surf-sharedhosting": "dev-master"
+        "famelo/surf-sharedhosting": "dev-master",
+        "famelo/poltergeist": "*"
     },
     "minimum-stability": "dev",
     "scripts": {
