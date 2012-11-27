@@ -5,6 +5,7 @@ Feature:
 
 	Scenario: At first i should be redirect to the new form
 		Given I am on homepage
+		And there are no "\Famelo\Demo\Admin\Domain\Model\Inline" entities
 		And there are no "\Famelo\Demo\Admin\Domain\Model\Address" entities
 		When I follow "Models"
 		And follow "Adresses"

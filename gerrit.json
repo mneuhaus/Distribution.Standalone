@@ -1,7 +1,8 @@
 {
 	"TYPO3.Flow": {
 		"[FEATURE] Allow custom custom configuration files in ConfigurationManager": "11982",
-		"[WIP][FEATURE] Improve resolving of view": "16392"
+		"[WIP][FEATURE] Improve resolving of view": "16392",
+		"[BUGFIX] Routing includes parameters from the current request": "16736"
 	},
 	"TYPO3.TypoScript": {
 		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394"
