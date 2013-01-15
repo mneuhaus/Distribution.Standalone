@@ -1,10 +1,11 @@
 {
 	"TYPO3.Flow": {
-		"[FEATURE] Allow custom custom configuration files in ConfigurationManager": "11982",
-		"[WIP][FEATURE] Improve resolving of view": "16392"
+		"[WIP][FEATURE] Improve resolving of view": "16392",
+		"[BUGFIX] Prevent UriBuilder adding current namespaced arguments": "17246"
 	},
 	"TYPO3.TypoScript": {
-		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394"
+		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394",
+		"[FEATURE] Allow Processors to be unset": "17551"
 	},
 	"TYPO3.Fluid": {
 		"[FEATURE] Add various Setters to override Paths and Patterns": "16393"
