@@ -30,11 +30,11 @@
   appendExceedingArguments: true
 
 -
-  name: 'Home'
-  uriPattern: ''
-  defaults:
-    '@format': 'html'
-    '@package': 'Famelo.Scaff'
+  name: 'Famelo.Demo.Admin'
+  uriPattern: '<DemoAdminSubroutes>'
+  subRoutes:
+    DemoAdminSubroutes:
+      package: Famelo.Demo.Admin
 
 -
   name: 'Flow'

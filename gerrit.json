@@ -1,11 +1,9 @@
 {
 	"TYPO3.Flow": {
-		"[WIP][FEATURE] Improve resolving of view": "16392",
-		"[BUGFIX] Prevent UriBuilder adding current namespaced arguments": "17246"
+		"[WIP][FEATURE] Improve resolving of view": "16392"
 	},
 	"TYPO3.TypoScript": {
-		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394",
-		"[FEATURE] Allow Processors to be unset": "17551"
+		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394"
 	},
 	"TYPO3.Fluid": {
 		"[FEATURE] Add various Setters to override Paths and Patterns": "16393"
