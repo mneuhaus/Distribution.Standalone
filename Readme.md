@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-composer create-project famelo/standalone standalone
+composer create-project -s dev famelo/standalone standalone
 cd standalone
 ./flow gerrit:update
 ```
