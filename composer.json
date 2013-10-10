@@ -18,7 +18,7 @@
     },
     "require": {
         "typo3/flow": "dev-master",
-        "typo3/expose": "dev-master",
+        "typo3/expose": "dev-refactor_processors",
         "typo3/kickstart": "dev-master",
         "famelo/demo-admin": "dev-master",
         "typo3/setup": "*",
