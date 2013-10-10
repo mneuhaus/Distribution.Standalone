@@ -4,6 +4,10 @@
     "license": "GPL-3.0+",
     "repositories": [
         {
+            "type": "vcs",
+            "url": "git@github.com:mneuhaus/TYPO3.Expose.git"
+        },
+        {
             "type": "composer",
             "url": "http://ci.typo3.robertlemke.net/job/composer-packages/ws/repository/"
         }
@@ -17,7 +21,6 @@
         "typo3/expose": "dev-master",
         "typo3/kickstart": "dev-master",
         "famelo/demo-admin": "dev-master",
-        "famelo/gerrit": "*",
         "typo3/setup": "*",
         "famelo/navigation": "*"
     },
